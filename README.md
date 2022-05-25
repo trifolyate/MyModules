@@ -1,7 +1,8 @@
 # RP MODULES APP
 RP MODULES APP
 
-On today’s lesson, I learned the basic Intent commands and I applied it to these app.
+In today’s lesson, I learned the basic Intent commands and I applied it to this app.
+
 - This app supposedly will automatically show all of a student’s modules information, module name, module code, module credit etc.
 ![BacktoHomeScreen](https://user-images.githubusercontent.com/104475731/170220408-03d29287-d175-4faa-ba64-52c675184dc4.gif)
 - Has a nice welcome screen with animation ( not as nice as my previous app)
