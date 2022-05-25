@@ -11,5 +11,5 @@ On today’s lesson, I learned the basic Intent commands and I applied it to the
 - By doing so, it will lead them to the results page which shows all the information to the user based on the module that he/she has chosen to check out.
 - Added a back home button to lead them back to the Home screen.
 ![welcomescreen](https://user-images.githubusercontent.com/104475731/170220561-455f1335-817f-49fc-b6dd-1ba29addb876.gif)
-- Was hesitant to add the classic back-arrow imagebutton because it does not look pleasing to me, thus I used a normal button instead.
-- Do not be fooled by the Module Credit, that is a imaginary number (hope this app can make me have an A for today's lesson 🥲)
+- Was hesitant to add the classic back-arrow imagebutton because it is displeasing to me, thus I used a normal button instead.
+- Do not be fooled by the Module Credit, that is an imaginary number (hope this app can make me have an A for today's lesson 🥲)
