@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultPage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/knewave_regularfont"
+        android:text="RP MODULES"
+        android:textSize="50dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/inconsolota_bold"
+        android:gravity="center"
+        android:text="IT Security and Management\nC235-5D-E65H-A"
+        android:textSize="28dp"
+        android:textColor="@color/black"/>
+
+    <FrameLayout
+        android:layout_width="313dp"
+        android:layout_height="196dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/rectangle_white">
+
+        <TextView
+            android:id="@+id/finalresultTv"
+            android:layout_width="288dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/inconsolota_regular"
+            android:gravity="center|top"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/homeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GO BACK To home page"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="10dp"
+        android:layout_marginTop="30dp"
+        android:text="© 2022-2022 RP MODULES"
+        android:fontFamily="sans-serif-black"/>
+</LinearLayout>

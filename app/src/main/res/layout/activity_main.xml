@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            app:srcCompat="@drawable/logoversion1_wbg" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="50dp"
+            android:layout_marginTop="20dp"
+            android:text="RP MODULES"
+            android:fontFamily="@font/knewave_regularfont"
+            android:textColor="@color/black"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="303dp"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            android:layout_gravity="center"
+            app:lottie_rawRes="@raw/line_loading" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="10dp"
+            android:layout_marginTop="20dp"
+            android:text="© 2022-2022 RP MODULES"
+            android:fontFamily="sans-serif-black"/>
+
+    </LinearLayout>
+
+</LinearLayout>
