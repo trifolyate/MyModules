@@ -34,8 +34,7 @@ public class ResultPage extends AppCompatActivity {
         btnHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ResultPage.this,HomeScreen.class);
-                startActivity(intent);
+               finish();
             }
         });
 

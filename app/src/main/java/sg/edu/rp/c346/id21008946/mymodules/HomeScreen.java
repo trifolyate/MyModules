@@ -28,7 +28,7 @@ public class HomeScreen extends AppCompatActivity {
                 intent.putExtra("ModuleName","IT Security and Management");
                 intent.putExtra("ModuleCode","C235-5D-E65H-A");
                 intent.putExtra("AcademicYear","2022");
-                intent.putExtra("Semester","1");
+                intent.putExtra("Semester",1);
                 intent.putExtra("ModuleCredit",4);
                 intent.putExtra("Venue","E65H");
                 startActivity(intent);

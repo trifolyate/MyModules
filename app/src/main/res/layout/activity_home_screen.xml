@@ -11,7 +11,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome, Student!"
+        android:text="Welcome, Ashraf!"
         android:layout_gravity="center"
         android:fontFamily="@font/knewave_regularfont"
         android:textSize="30dp"
@@ -57,7 +57,8 @@
                     android:text="IT Security and Management\n\nC235-5D-E65H-A"
                     android:gravity="center"
                     android:layout_marginTop="20dp"
-                    android:fontFamily="@font/plusjakartasans"/>
+                    android:fontFamily="@font/plusjakartasans"
+                    android:textColor="@color/black"/>
 
             </LinearLayout>
 
@@ -81,6 +82,7 @@
                     android:layout_height="wrap_content"
                     android:text="Web Appln Development in php\n\nC203-4D-W65H-A"
                     android:gravity="center"
+                    android:textColor="@color/black"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/plusjakartasans" />
 
@@ -117,6 +119,7 @@
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/plusjakartasans"
                     android:gravity="center"
+                    android:textColor="@color/black"
                     android:text="UI/UX Design for \nApps\n\nC218-1D-E66B-A" />
 
             </LinearLayout>
@@ -142,6 +145,7 @@
                     android:text="Software Development \nProcess\n\nC206-2D-E66K-A"
                     android:gravity="center"
                     android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
                     android:fontFamily="@font/plusjakartasans" />
 
             </LinearLayout>
@@ -177,6 +181,7 @@
                     android:text="Mobile App Development\n\nC346-3D-E62E-A"
                     android:gravity="center"
                     android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
                     android:fontFamily="@font/plusjakartasans" />
 
             </LinearLayout>
